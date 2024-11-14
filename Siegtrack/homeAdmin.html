@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestión de Usuarios</title>
+<link rel="stylesheet" href="css/homeAdmin.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Menú lateral -->
+        <aside class="sidebar">
+            <h2>Dashboard</h2>
+            <ul>
+                <li class="active">Dashboard</li>
+                <li>Colaboradores</li>
+                <li>Usuarios</li>
+                <li>Configuración</li>
+            </ul>
+        </aside>
+
+        <!-- Sección principal -->
+        <main class="main-content">
+            <div class="header">
+                <h1>Gestión de Usuarios</h1>
+                <button id="new-user-btn">+ Nuevo Usuario</button>
+            </div>
+
+            <!-- Contenedor de tarjetas de usuario -->
+            <div class="user-cards-container">
+                <div class="user-card">
+                    <div class="user-info">
+                        <div class="avatar"></div>
+                        <div class="user-details">
+                            <h3>Ana Martínez</h3>
+                            <p>Diseñadora Senior</p>
+                            <div class="skills">
+                                <span>UI/UX</span>
+                                <span>Figma</span>
+                            </div>
+                            <p>Proyecto actual: <strong>Rediseño Dashboard</strong></p>
+                        </div>
+                    </div>
+                    <div class="status disponible">Disponible</div>
+                </div>
+
+                <div class="user-card">
+                    <div class="user-info">
+                        <div class="avatar"></div>
+                        <div class="user-details">
+                            <h3>Carlos Ruiz</h3>
+                            <p>Desarrollador Full-Stack</p>
+                            <div class="skills">
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+                            <p>Proyecto actual: <strong>API REST v2</strong></p>
+                        </div>
+                    </div>
+                    <div class="status en-proyecto">En proyecto</div>
+                </div>
+
+                <div class="user-card">
+                    <div class="user-info">
+                        <div class="avatar"></div>
+                        <div class="user-details">
+                            <h3>Laura Sánchez</h3>
+                            <p>Product Manager</p>
+                            <div class="skills">
+                                <span>Scrum</span>
+                                <span>Jira</span>
+                            </div>
+                            <p>Proyecto actual: <strong>Sprint Planning Q1</strong></p>
+                        </div>
+                    </div>
+                    <div class="status disponible">Disponible</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/homeAdmin.js"></script>
+</body>
+</html>
